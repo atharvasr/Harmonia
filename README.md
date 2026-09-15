@@ -213,7 +213,7 @@ sudo dnf install python3 ffmpeg
 
 Then:
 ```bash
-git clone https://github.com/<your-username>/Harmonia.git
+git clone https://github.com/<atharvasr>/Harmonia.git
 cd Harmonia
 ./build.sh              # verifies environment and runs the test suite
 ./scripts/run.sh
@@ -475,3 +475,4 @@ information.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+

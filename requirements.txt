@@ -1,0 +1,19 @@
+# Harmonia has NO required Python packages. Everything it needs to run is in
+# the standard library. This file lists OPTIONAL packages only; the program
+# starts and plays music without any of them and reports which are missing.
+#
+#   pip install -r requirements.txt        # install the optional extras
+#
+# Prefer your distro's packages where they exist (python-dbus-next,
+# python-numpy, python-gobject) so they stay in step with system libraries.
+
+dbus-next>=0.2.3    ; python_version >= "3.10"   # MPRIS, media keys, playerctl
+numpy>=1.21                                       # faster volume/ReplayGain scaling
+
+# NOT installable via pip in a useful form; install from your distro:
+#   gtk4, libadwaita, python-gobject   -> native GTK front-end (gtk_skeleton/)
+#
+# System requirements (not Python packages):
+#   ffmpeg + ffprobe   -- REQUIRED, audio decoding
+#   libasound (ALSA)   -- audio output
+#   SQLite with FTS5   -- bundled with CPython on mainstream distros

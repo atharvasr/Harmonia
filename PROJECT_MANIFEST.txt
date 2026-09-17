@@ -307,7 +307,8 @@ to know where the risk is.
 -------------------------------------------------------------------------------
  KNOWN LIMITATIONS (design, not bugs)
 -------------------------------------------------------------------------------
-- Gapless playback works only when consecutive tracks share sample rate and
+- Gapless(still in progress)
+  playback works only when consecutive tracks share sample rate and
   channel count. A format change forces an ALSA device reconfigure and a
   short gap. This is a hardware constraint, not a shortcut.
 - Encoder delay is not compensated. MP3/AAC gapless is close but not

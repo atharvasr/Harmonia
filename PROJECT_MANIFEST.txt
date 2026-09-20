@@ -2,7 +2,7 @@
  HARMONIA - PROJECT MANIFEST
 ===============================================================================
 
-PROJECT NAME      Harmonia
+PROJECT NAME      Harmonia()
 VERSION           0.1.0 (initial public release)
 LICENSE           MIT
 LANGUAGE          Python 3.10+ (backend), HTML/CSS/JavaScript (interface)

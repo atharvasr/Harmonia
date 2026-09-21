@@ -313,7 +313,7 @@ Listed because they are the ones that reading the code would have missed:
 
 **Read this before filing a sound bug.**
 
-Harmonia was developed in an environment with **no sound card** (`/dev/snd`
+Harmonia was developed in an environment with **sound card** (`/dev/snd`
 did not exist). Decoding is thoroughly verified — a 2-second FLAC produces
 exactly 176,400 PCM bytes, and a VBR MP3 matches ffprobe's duration to
 5.041633 s — but **no audio has ever been played through real hardware by this

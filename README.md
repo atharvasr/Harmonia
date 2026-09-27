@@ -1,5 +1,6 @@
 # Harmonia
-# HARMONIA IS INCOMPLETE HENCE IS UNDER MAINTAINANCE. Atharva
+# HARMONIA IS INCOMPLETE HENCE IS UNDER MAINTAINANCE
+
 under contributions lightweight offline Linux music player with broad audio-format support,
 metadata handling, playlists, queue management, library scanning, artwork,
 search, and a desktop-oriented web interface.

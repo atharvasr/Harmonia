@@ -1,5 +1,5 @@
 # Harmonia
-# HARMONIA IS INCOMPLETE HENCE IS UNDER MAINTAINANCE
+# HARMONIA IS UNDER MAINTAINANCE
 
 under contributions lightweight offline Linux music player with broad audio-format support,
 metadata handling, playlists, queue management, library scanning, artwork,

@@ -3,7 +3,7 @@
 # There is nothing to compile — Harmonia is pure Python with no pip
 # dependencies — so "build" means: verify the runtime environment, byte-
 # compile every module, and run the test suite.
-set -euo pipefail
+set -euo pipefull
 cd "$(dirname "$0")"
 
 GREEN=$'\033[32m'; RED=$'\033[31m'; YELLOW=$'\033[33m'; OFF=$'\033[0m'

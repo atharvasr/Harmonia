@@ -93,7 +93,7 @@ the PCM output length against the expected duration, plus a tag-parsing test.
 
 | Format | Container | Tags read | Decode verified |
 |---|---|---|---|
-| MP3 (CBR & VBR) | MPEG | ID3v2.2/2.3/2.4, ID3v1 | yes |
+| MP3 (all formats) | MPEG | ID3v2.2/2.3/2.4, ID3v1 | yes |
 | FLAC | FLAC | Vorbis comments, STREAMINFO, PICTURE | yes |
 | WAV | RIFF | `LIST`/`INFO`, embedded `id3 ` chunk | yes |
 | Ogg Vorbis | Ogg | Vorbis comments | yes |

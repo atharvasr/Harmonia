@@ -56,4 +56,6 @@ echo "== Running test suite =="
 ./scripts/test.sh
 
 echo
-echo "${GREEN}Build complete.${OFF} Start the player with:  ./scripts/run.sh"
+echo "${GREEN}Build complete.${OFF} Start the player with:  
+./scripts/run.sh" 
+./scripts /run.sh

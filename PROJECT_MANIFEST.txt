@@ -325,7 +325,6 @@ to know where the risk is.
 -------------------------------------------------------------------------------
  DATA SAFETY
 -------------------------------------------------------------------------------
-- Music files are opened 'rb'. Nothing writes to them, ever.
 - "Remove from library" deletes a database row. It never deletes a file.
 - Database and artwork cache live in $XDG_DATA_HOME/harmonia
   (default ~/.local/share/harmonia). No paths are hard-coded to a home dir.

@@ -3,7 +3,7 @@
 ===============================================================================
 
 PROJECT NAME      Harmonia()
-VERSION           0.1.0 (initial public release)
+VERSION           0.1.1 (initial public release)
 LICENSE           MIT
 LANGUAGE          Python 3.10+ (backend), HTML/CSS/JavaScript (interface)
 TARGET PLATFORM   Linux desktop (developed for Arch/Wayland/Hyprland; runs on
